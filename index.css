@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #282c3f;
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+}
+
+.header nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+}
+
+.header nav .img-container {
+    flex-basis: 8%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header nav img {
+    width: 60px;
+    height: 60px;
+}
+
+.nav-items {
+    flex-basis: 35%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 15px; */
+}
+
+.nav-items ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items ul li {
+    list-style: none;
+    padding: 0 10px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.nav-items ul li sup {
+    color: #ff3f6c;
+}
+
+.search-field {
+    flex-basis: 30%;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    padding: 0 15px;
+    align-items: center;
+}
+
+.search-field input {
+    width: 100%;
+    border-radius: 4px;
+    height: 40px;
+    border: none;
+    background: #f5f5f6;
+    padding: 0 35px;
+}
+
+.search .nav-items1 {
+    flex-basis: 20%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    position: absolute;
+    display: flex;
+    width: 27%;
+    height: 30px;
+    align-items: center;
+    justify-content: start;
+}
+
+.nav-items1 {
+    flex-basis: 15%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 15px; */
+}
+
+.nav-items1 ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-items1 ul li {
+    list-style: none;
+    padding: 0 10px;
+    font-size: 13px;
+    font-weight: 700;
+    /* display: flex; */
+}
+
+.nav-items1 ul li div i {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ---------------------offer banner css------------ */
+.offer-banner {
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    margin: 13px 0;
+}
+
+.offer-banner img {
+    width: 95%;
+}
+
+/* ---------------------large banner css------------ */
+
+.large-banners {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+}
+
+.large-banners img {
+    width: 50%;
+}
+
+/* ---------------------sponsor banner css------------ */
+
+.sponsor-banners {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+}
+
+.sponsor-banners img {
+    width: 47%;
+}
+
+/* -----------------------payments banners css---------- */
+.payments-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    padding: 0 40px;
+}
+
+.payments-banner img {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+/* -----------------------omg-banner ---------------------- */
+
+.omg-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.omg-banner img {
+    width: 100%;
+    height: 100px;
+}
+
+/* --------------------------brands-offers----------------- */
+
+.brands-offers {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    object-fit: cover;
+}
+
+.brands-offers img {
+    width: 16.6%;
+    height: auto;
+}
+
+/* -----------------------three-dots------------------------- */
+
+.three-dots{
+    display: flex;
+    justify-content: center;
+    font: 900;
+    font-size: 50px;
+}
+/* --------------------------category-banner----------------- */
+
+.category-banner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    object-fit: cover;
+}
+
+.category-banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* -----------------------category-------------------------------- */
+
+.category{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    object-fit: cover;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category img{
+    width: 16.6%;
+    height: auto;
+}
+
+/* -------------------------download-banner-------------------------- */
+
+.download-banner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+}
+
+.download-banner img{
+    width: 100%;
+}
+
+/* ---------------------------footer----------------------------------- */
+.footer{
+    width: 100%;
+    padding: 0 200px;
+    line-height: 1.5rem;
+}
+
+.footer p{
+    color: #696b79;
+}
+
+.footer .section-row{
+    width: 100%;
+    display: flex;
+}
+/* ------------------section 1 column 1 --------------------*/
+.column1{
+    width: 20%;
+}
+.column1 div{
+    padding: 10px;
+}
+.column1 p{
+    font-size: 14px;
+}
+
+.column1 h6{
+    padding-bottom: 15px;
+}
+/* ----------------------section 1 column 2 ---------------- */
+.column2{
+    width: 20%;
+}
+.column2 div{
+    padding: 10px;
+}
+.column2 p{
+    font-size: 14px;
+}
+.column2 h6{
+    padding-bottom: 15px;
+}
+
+/* -------------------------section 1 column 3--------------- */
+
+.column3{
+    width: 20%;
+}
+
+.column3 div{
+    padding: 10px 0;
+}
+.column3 p{
+    font-size: 14px;
+}
+.download-links{
+    display: flex;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.download-links img{
+    width: 180px;
+    height: 42px;
+    margin: 5px 0;
+}
+
+.download-links img:nth-child(2){
+    margin-left: 8px;
+}
+.social-media-link{
+    width: 100%;
+    
+}
+
+.social-media-links img{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+/* -------------------------section 1 column 3--------------- */
+
+.column4{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    margin:0 20px;
+}
+.column4 div{
+    padding: 10px 20px;
+    margin:0 30px
+}
+.column4 .original{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.column4 .return{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column4 img{
+    width: 48px;
+    height: 40px;
+}
+
+.column4 p{
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+/* ---------------section-row2----------------- */
+.section-row2{
+    width: 100%;
+    padding: 0 5px;
+}
+
+.section-row2 h6::after{
+    border: 1px solid #eaeaec;
+}
+
+.section-row2 div{
+    width: 100%;
+    display: flex;
+}
+
+.popular-search{
+  width: 10%;
+  display: flex;
+}
+
+.line{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-row2 p{
+    font-size: 14px;
+    /* padding-right: 15px; */
+}
+
+/* ----------------section-row3 -------------- */
+
+.section-row3{
+    width: 100%;
+}
+.section-row3 div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+/* ------------------ section-row4------------- */
+
+.section-row4{
+    width: 100%;
+    border-top: 1px solid #eaeaec;
+    display: flex;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.section-row4 .column1{
+    width:30%;
+}
+.section-row4 .column1 h5{
+    padding: 20px 0;
+}
+
+.section-row4 .column2{
+    width:60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.section-row4 .column2 strong{
+    color: rgb(58, 58, 220);
+}
+
+/* ------------------section-row5--------------------- */
+
+.section-row5{
+    width: 100%;
+    padding-top: 20px;
+    border-top: 1px solid #eaeaec;
+    padding-bottom: 20px;
+}
+
+.section-row5 .row1{
+    padding-bottom: 20px;
+}
+
+.section-row5 li{
+    font-size: 14px;
+}
+
+.section-row5 .row3{
+    width: 100%;
+    padding-left: 40px;
+}
+
+.section-row5 .row3 li{
+    padding: 10px 0;
+}
+
+.section-row5 .row4 p{
+    font-size: 14px;
+} 
+
+/* --------------------------section-row6------------------- */
+
+.section-row6{
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.section-row6 p{
+    font-size: 14px;
+}
+
+/* ----------------------------section-row7------------- */
+
+.section-row7{
+width: 100%;
+}
+
+.section-row7 p{
+    font-size: 14px;
+}
+
+.section-row7 .row1{
+    padding: 20px 0;
+}
